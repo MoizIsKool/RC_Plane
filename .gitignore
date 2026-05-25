@@ -1,0 +1,33 @@
+# Build artifacts
+firmware/build/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.o
+*.obj
+*.d
+
+# IDEs and Tools
+.idea/
+firmware/.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Toolchain/System
+*.exe
+*.dll
+*.so
+*.dylib
